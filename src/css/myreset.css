@@ -1,0 +1,46 @@
+/**
+ * 作品：myreset.css
+ * 维护：白小明
+ * 更新：2017年5月15日
+ * 理念：清除和重置是紧密不可分的
+ * 特色：适应中文，基于最新主流浏览器
+ */
+
+/* 清除内外边距 */
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, 
+pre,dl, dt, dd, ul, ol, li, 
+fieldset, lengend, button, input, textarea, 
+th, td { margin: 0; padding: 0; }
+
+/* 重置格式元素 */
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+q:before, q:after { content: ''; }
+img { border: 0; }
+
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+button, textarea { font-size: 100%; border: 0; } /* 使得表单元素在 ie 下能继承字体大小 */ 
+
+/* 重置表格元素 */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* 清除浮动 */ 
+.fl { float: left; }
+.fr { float: right; }
+.clearfix:after { display: block; clear: both; content: ""; visibility: hidden; height: 0; }
+.clearfix { zoom: 1; }
+
+/* 文字选中效果 */
+::selection {
+	background-color: #b3d4fc;
+	text-shadow: none;
+}
+
+/* 浏览器升级 */
+.browser-up {
+	padding: 1rem;
+	background: #ccc;
+	text-align: center;
+}
