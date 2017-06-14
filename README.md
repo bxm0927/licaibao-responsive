@@ -1,5 +1,5 @@
 
-## [响应式开发一招致胜](http://coding.imooc.com/class/50.html)
+# [响应式开发一招致胜](http://coding.imooc.com/class/50.html)
 
 ### 第1章 前期准备
 介绍了课程内容、背景和案例展示、什么是响应式网站、怎样分析设计图、响应式网站设计实践原则
